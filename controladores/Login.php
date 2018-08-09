@@ -10,7 +10,7 @@ class login{
 public function login_user(){
     $obj= new modelo_login();
     
-    $usuario=$_GET['username'];
+    $usuario=$_GET['usuario'];
     $password=$_GET['password'];
     $valid=$obj->get_users($usuario, $password);
     echo $valid;

@@ -8,8 +8,8 @@
             <file>file:/C:/xampp/htdocs/mvcregistro/vistas/view_login.html</file>
             <file>file:/C:/xampp/htdocs/mvcregistro/modelos/Modelo_login.php</file>
             <file>file:/C:/xampp/htdocs/mvcregistro/controladores/Login.php</file>
+            <file>file:/C:/xampp/htdocs/mvcregistro/modelos/conexion.php</file>
             <file>file:/C:/xampp/htdocs/mvcregistro/controladores/main.php</file>
-            <file>file:/C:/xampp/htdocs/mvcregistro/vistas/view_registro.html</file>
         </group>
     </open-files>
 </project-private>

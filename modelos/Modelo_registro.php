@@ -8,7 +8,7 @@ class modelo_reg{
         $this->db= Conexion::conexion();
     }
 public function insert_registro($usuario,$password,$nombre,$apellidos){
-$statement= $this->db->prepare('INSERT INTO userinfo (usuario,password,nombre,apellidos) VALUES (:usuario,:password,:nombre,:apellidos)');
+$statement= $this->db->prepare('INSERT INTO alumnos (usuario,password,nombre,apellidos) VALUES (:usuario,:password,:nombre,:apellidos)');
 $statement->bindParam(':usuario', $usuario);
 $statement->bindParam(':password', $password);
 $statement->bindParam(':nombre', $nombre);
