@@ -67,7 +67,7 @@ $(document).ready(function() {
   <div id="latest">
     <div class="fl_left"><a href="#"><img src="css/images/575x300.jpg" alt="" /></a></div>
     <div class="fl_right">
-      <h2>Escuela ing Douglas </h2>
+      <h2>Colegio ing Douglas </h2>
       <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur consequam intesque. Cursuspenatisaccum ut curabitur nulla tellus tor.</p>
       <ul>
         <li><a href="#"><img src="css/images/100x100.jpg" alt="" /></a></li>
@@ -84,22 +84,22 @@ $(document).ready(function() {
       <li>
         <h2>Mision</h2>
         <div class="imgholder"><a href="#"><img src="images/demo/300x150.gif" alt="" /></a></div>
-        <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. Anter dumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa. </p>
-        <p>Condimentumfelis et amet tellent quisquet a leo lacus nec augue accumsan. Sagittislaorem dolor ipsum at urna et pharetium malesuada nis consectus odio.</p>
+        <p>Asumimos la responsabilidad de dar una formación integral a cada uno de nuestros alumnos en las distintas etapas de su desarrollo. </p>
+        <p>Poniendo el máximo empeño en el cultivo de valores humanos y en la creación de hábitos de estudio, trabajo y convivencia para una excelente formacion academica y personal</p>
         <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
       </li>
       <li>
         <h2>Vision</h2>
         <div class="imgholder"><a href="#"><img src="images/demo/300x150.gif" alt="" /></a></div>
-        <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. Anter dumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa. </p>
-        <p>Condimentumfelis et amet tellent quisquet a leo lacus nec augue accumsan. Sagittislaorem dolor ipsum at urna et pharetium malesuada nis consectus odio.</p>
+        <p>Ser la primera elección de las familias que garantice la formación académica, la madurez emocional y la educación en valores necesarios para el futuro de sus hijos en un mundo tecnológico y global.</p>
+        <p>Un Colegio que considere al alumnado el centro de toda su acción educativa, ayudándole a ser el protagonista activo de su proceso formativo.</p>
         <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
       </li>
       <li class="last">
         <h2>Mensaje de nuestra Directora</h2>
         <div class="imgholder"><a href="#"><img src="images/demo/300x150.gif" alt="" /></a></div>
-        <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. Anter dumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa. </p>
-        <p>Condimentumfelis et amet tellent quisquet a leo lacus nec augue accumsan. Sagittislaorem dolor ipsum at urna et pharetium malesuada nis consectus odio.</p>
+        <p>Estimados padres de familia:</p>
+        <p>El éxito es una condición deseable para todos los que buscan algo en la vida, para todos aquellos que se han trazado una meta. He aquí entonces una invitación para trazar un proyecto de vida que puede brindar las mayores y mejores satisfacciones.</p>
         <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
       </li>
     </ul>
