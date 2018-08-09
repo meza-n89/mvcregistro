@@ -4,7 +4,7 @@ class Conexion{
         
     }
     public static function conexion(){
-    $conexion= new PDO('mysql:host=localhost;dbname=registro','root','');
+    $conexion= new PDO('mysql:host=localhost;dbname=registro_notas','root','');
     return $conexion;
     
     }
