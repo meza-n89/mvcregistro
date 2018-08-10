@@ -14,7 +14,7 @@ public function login_user(){
     $password=$_GET['password'];
     $valid=$obj->get_users($usuario, $password);
     echo $valid;
-    if($valid==1){
+    if(!$valid==0){
         header('location:../vistas/view_perfil.html');
     }else{
         header('location:../vistas/view_login.html');
