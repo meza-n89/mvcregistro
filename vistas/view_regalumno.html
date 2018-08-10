@@ -9,19 +9,93 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color:#000; 
+            }
+            h1{
+                background-color:#EF5350;
+                color:#fff;
+                text-align: center;
+                height: 55px;
+                padding: 15px;
+                font-style: italic;
+                border-radius: 35px 0px 35px 0px;
+            }
+            
+            .main{
+                background-color:#76D7C4;
+                text-align: center;
+                margin-right: 370px;
+                margin-left: 370px;
+                border-radius: 25px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-family: cursive;
+                /*font-weight: bold;*/
+            }
+            
+            input{
+                border-radius: 5px;
+                width: 170px;
+                text-align: justify;
+                height: 20px;
+                padding-left: 5px;
+                /*box-sizing: border-box;*/
+                display: inline-block;
+            }
+        </style>
     </head>
     <body>
-          <form action="action=../controladores/main.php" method="post">  
-	<input type="text" name="nombre" placeholder="Nombres">
-        <input type="text" name="apellido" placeholder="Apellidos">
-        <input type="date" name="dob">
-        <input type="text" name="direccion" placeholder="Direccion">
-        <input type="tel" name="telefono" placeholder="Telefono">
-        <input type="text" name="responsable" placeholder="responsable">
-        <input type="text" name="Usuario" placeholder="Usuario">
-        <input type="password" name="password" placeholder="password">
-        
-	<input type="submit" value="enviar">
+        <h1>Ingreso de datos de Alumno</h1>
+          <form action="action=../controladores/main.php" method="post">
+              <div class="main">
+                  <div>
+                      <label>Ingresar nombre:</label>
+                      <label>
+	              <input type="text" name="nombre" placeholder="Nombres">
+                      </label>
+                  </div>
+                  <br>
+                  <div>
+                      <label>Ingresar apellido:</label>
+                      <input type="text" name="apellido" placeholder="Apellidos">
+                  </div>
+                  <br>
+                  <div>
+                      <label>Ingresar fecha:</label>
+                      <input type="date" name="fecha">
+                  </div>
+                  <br>
+                  <div>
+                      <label>Ingresar direccion:</label>
+                      <input type="text" name="direccion" placeholder="Direccion">
+                  </div>
+                  <br>
+                  <div>
+                      <label>Ingresar telefono</label>
+                      <input type="tel" name="telefono" placeholder="Telefono">
+                  </div>
+                  <br>
+                  <div>
+                      <label>Responsable:</label>
+                      <input type="text" name="responsable" placeholder="responsable">
+                  </div>
+                  <br>
+                  <div>
+                      <label>Ingresar usuario</label>
+                      <input type="text" name="Usuario" placeholder="Usuario">
+                  </div>
+                  <br>
+                  <div>
+                      <label>Ingresar contraseña</label>
+                      <input type="password" name="password" placeholder="password">
+                  </div>
+                  <br>
+                  <div>
+                      <input type="submit" name="enviar" value="enviar">
+                  </div>
+              </div>
 </form>	
     </body>
 </html>
